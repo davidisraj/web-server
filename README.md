@@ -9,6 +9,7 @@ It assumes a few prerequisites:
 2. The HTML files etc. that you wish to serve are in a directory named "fs" in the root of "/dev/sda1".
 3. There is a directory in "/mnt" named "ssd" which the storage device will be mounted to.
 4. These scripts are within a directory named "web" within the user's home directory.
+5. That Python 3 is installed on the machine, including the http module.
 
 I plan to add a script to initialise these/correct the scripts based on which device/directory the user wants to serve from.
 For now ensure your external storage is on /dev/sda1, and that your HTML is in a directory "fs" in the root of your external storage,
