@@ -14,9 +14,9 @@ I plan to add a script to initialise these/correct the scripts based on which de
 For now ensure your external storage is on /dev/sda1, and that your HTML is in a directory "fs" in the root of your external storage,
 then run:
 
-git clone https://github.com/davidisraj/web-server.git
-mv web-server web
-sudo mkdir /mnt/ssd
+1. git clone https://github.com/davidisraj/web-server.git
+2. mv web-server web
+3. sudo mkdir /mnt/ssd
 
 From there simply start the menu with:
 ./web/serv/sh
