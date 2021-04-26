@@ -19,4 +19,4 @@ then run:
 3. sudo mkdir /mnt/ssd
 
 From there simply start the menu with:
-./web/serv/sh
+./web/serv.sh
